@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  height: 80px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid;
+  background: #2d2d2e;
+}
+
+.header a {
+  color:#f0ffff;
+  
+  margin: 0 1em 0 1em;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.header a:hover{
+  color:#aaaaaa;
+  text-decoration: underline;
+}
+
+.content{
+  font-size: 1.5em;
+}
+
+.message{
+  color: red;
+  font-size: 0.7em;
+}
+
+
+
